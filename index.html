@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevOps Command Cheatsheets</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f172a;
+      color: #f1f5f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1e293b;
+      padding: 1rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #38bdf8;
+    }
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .card {
+      background-color: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+    .card h2 {
+      color: #facc15;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .card img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1e293b;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DevOps Command Cheatsheet Gallery</h1>
+    <p>Click on any image to view in full size</p>
+  </header>
+  <main>
+    <div class="card">
+      <h2>Git</h2>
+      <a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank">
+        <img src="https://i.imgur.com/eXKW6VG.png" alt="Git Cheatsheet">
+      </a>
+    </div>
+    <div class="card">
+      <h2>Linux</h2>
+      <a href="https://files.fosswire.com/2007/08/fwunixref.pdf" target="_blank">
+        <img src="https://i.imgur.com/yT8z6RJ.png" alt="Linux Cheatsheet">
+      </a>
+    </div>
+    <div class="card">
+      <h2>Docker</h2>
+      <a href="https://dockerlabs.collabnix.com/docker/cheatsheet/" target="_blank">
+        <img src="https://i.imgur.com/YjqCktm.png" alt="Docker Cheatsheet">
+      </a>
+    </div>
+    <div class="card">
+      <h2>Kubernetes</h2>
+      <a href="https://kubernetes.io/docs/reference/kubectl/cheatsheet/" target="_blank">
+        <img src="https://i.imgur.com/9G9pyaR.png" alt="Kubernetes Cheatsheet">
+      </a>
+    </div>
+    <div class="card">
+      <h2>Ansible</h2>
+      <a href="https://cdn.learnk8s.io/ansible-cheat-sheet.pdf" target="_blank">
+        <img src="https://i.imgur.com/YmIxtG7.png" alt="Ansible Cheatsheet">
+      </a>
+    </div>
+    <div class="card">
+      <h2>Terraform</h2>
+      <a href="https://developer.hashicorp.com/terraform/cli/commands" target="_blank">
+        <img src="https://i.imgur.com/yvngZgJ.png" alt="Terraform Cheatsheet">
+      </a>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 DevOps Command Central. Empower your automation journey 🚀</p>
+  </footer>
+</body>
+</html>

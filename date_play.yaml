@@ -1,0 +1,10 @@
+-
+  name: Date of playbook
+  hosts: servers
+  tasks:
+    - name: show date
+      command: date
+
+    - name: Show disk-free space
+      command: df -h 
+      
